@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css skeleton cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css skeleton cdn -->
+
+    <title>Task Project</title>
+</head>
+<body>
+
+    <style>
+        #new_task{
+            padding: 8px;
+            outline: none;
+        }
+    </style>
+
+    <div class="contaner">
+        <h3>Task List</h3>
+        <form id="task_form">
+            <input id="new_task" placeholder="New Task">
+            <input type="submit"  value="Add Task">
+        </form>
+        <hr>
+        <h4>Tasks</h4>
+        <input id="task_filter" type="text" placeholder="Filter Task">
+        <ul id="tasks">
+
+        </ul>
+        <button id="clear_task_btn">Clear Tasks</button>
+    </div>
+    
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
